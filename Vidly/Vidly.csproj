@@ -227,9 +227,50 @@
     <Compile Include="Migrations\201701141853339_customer table update with data.Designer.cs">
       <DependentUpon>201701141853339_customer table update with data.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201701141920251_AddNameToMemberShipType.cs" />
+    <Compile Include="Migrations\201701141920251_AddNameToMemberShipType.Designer.cs">
+      <DependentUpon>201701141920251_AddNameToMemberShipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701141921129_AddNameToMememberShipTypes.cs" />
+    <Compile Include="Migrations\201701141921129_AddNameToMememberShipTypes.Designer.cs">
+      <DependentUpon>201701141921129_AddNameToMememberShipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701141927347_UpdateCustomerViewWithName.cs" />
+    <Compile Include="Migrations\201701141927347_UpdateCustomerViewWithName.Designer.cs">
+      <DependentUpon>201701141927347_UpdateCustomerViewWithName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701141932021_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\201701141932021_AddBirthdateToCustomer.Designer.cs">
+      <DependentUpon>201701141932021_AddBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701141934442_populateCustomerTableWithBirthday.cs" />
+    <Compile Include="Migrations\201701141934442_populateCustomerTableWithBirthday.Designer.cs">
+      <DependentUpon>201701141934442_populateCustomerTableWithBirthday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701141950051_changeBirthdateTypetoDateTime.cs" />
+    <Compile Include="Migrations\201701141950051_changeBirthdateTypetoDateTime.Designer.cs">
+      <DependentUpon>201701141950051_changeBirthdateTypetoDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701142010378_NewGenreClassAndUpdateMovieClass.cs" />
+    <Compile Include="Migrations\201701142010378_NewGenreClassAndUpdateMovieClass.Designer.cs">
+      <DependentUpon>201701142010378_NewGenreClassAndUpdateMovieClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701142053459_ReturnNumberInStockInt.cs" />
+    <Compile Include="Migrations\201701142053459_ReturnNumberInStockInt.Designer.cs">
+      <DependentUpon>201701142053459_ReturnNumberInStockInt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701142054498_AddGenreIdToMovieClass.cs" />
+    <Compile Include="Migrations\201701142054498_AddGenreIdToMovieClass.Designer.cs">
+      <DependentUpon>201701142054498_AddGenreIdToMovieClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701142055172_PopulateGenreTableWithData.cs" />
+    <Compile Include="Migrations\201701142055172_PopulateGenreTableWithData.Designer.cs">
+      <DependentUpon>201701142055172_PopulateGenreTableWithData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\GenreType.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -332,6 +373,36 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201701141853339_customer table update with data.resx">
       <DependentUpon>201701141853339_customer table update with data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701141920251_AddNameToMemberShipType.resx">
+      <DependentUpon>201701141920251_AddNameToMemberShipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701141921129_AddNameToMememberShipTypes.resx">
+      <DependentUpon>201701141921129_AddNameToMememberShipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701141927347_UpdateCustomerViewWithName.resx">
+      <DependentUpon>201701141927347_UpdateCustomerViewWithName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701141932021_AddBirthdateToCustomer.resx">
+      <DependentUpon>201701141932021_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701141934442_populateCustomerTableWithBirthday.resx">
+      <DependentUpon>201701141934442_populateCustomerTableWithBirthday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701141950051_changeBirthdateTypetoDateTime.resx">
+      <DependentUpon>201701141950051_changeBirthdateTypetoDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701142010378_NewGenreClassAndUpdateMovieClass.resx">
+      <DependentUpon>201701142010378_NewGenreClassAndUpdateMovieClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701142053459_ReturnNumberInStockInt.resx">
+      <DependentUpon>201701142053459_ReturnNumberInStockInt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701142054498_AddGenreIdToMovieClass.resx">
+      <DependentUpon>201701142054498_AddGenreIdToMovieClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701142055172_PopulateGenreTableWithData.resx">
+      <DependentUpon>201701142055172_PopulateGenreTableWithData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
